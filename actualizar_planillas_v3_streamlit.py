@@ -34,9 +34,10 @@ if LCV_file is not None and GAB_file is not None:
         File = GAB.to_excel(in_memory_fp, index=False)
 
         #File = GAB.to_excel('POR_CONTRATAR.xlsx', index=False)
-        st.write(type(File))
         # directory = os.getcwd()
         st.subheader('Se ha generado un nuevo archivo excel "POR_CONTRATAR.xlsx"')
+        st.write('Archivo listo para descargar')
+        st.write('El archivo quedará en tu carpeta de decargas')
         st.download_button('Descargar', in_memory_fp.getvalue(), file_name='POR_CONTRATAR.xlsx', mime="application/vnd.ms-excel")
 
         # st.subheader(directory)
