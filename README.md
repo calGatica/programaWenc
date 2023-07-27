@@ -1,3 +1,3 @@
 # programaWenc
-Un programa bacán para mi hermano
-This app helps my brother to update his databases from work.
+Un programa para mi hermano
+This Streamlit app helps my brother to update his databases from his work.
